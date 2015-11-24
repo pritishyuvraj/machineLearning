@@ -1,6 +1,7 @@
 #Program By: Pritish Yuvraj
 #In this program we classify text read through a JSON file into 10 different categories. 
 #All the supporting files could be downloaded from URL: 
+#"https://drive.google.com/folderview?id=0BwXeiCjEpkS8UEg0TklYQ2ZFUm8&usp=sharing"
 #"training.json" as the name suggests is required to train the algorithm"
 #"inputs.json" is the input the file whose outputs need to be known"
 #"output.txt" is the output which my program generated
