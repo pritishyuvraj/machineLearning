@@ -1,27 +1,5 @@
-'''
-First Line: no of features(Fn) followed by no of sample data
-2nd line onwards to N+1 line we have
-feature1 feature2 featur3 .... featureFn ValueFound
-feature1 feature2 featur3 .... featureFn ValueFound
-.
-.
-.
-.
-feature1 feature2 featur3 .... featureFn ValueFound
-
-and then: Give data whose value needs to be found out
-Leave the answer column blank
-feature1 feature2 featur3 .... featureFn
-feature1 feature2 featur3 .... featureFn
-.
-.
-.
-feature1 feature2 featur3 .... featureFn
-
-The program will find out the result for all the inputs
-
-'''
-
+#Program By: Pritish Yuvraj
+#The program uses 2D linear Regression to predict the outcomes
 import numpy as np
 from numpy.linalg import inv
 no = raw_input("")
@@ -66,8 +44,25 @@ ans = np.dot(input_mat,third_mul)
 for i in range(len(ans)):
 	print int(ans[i])
 	
-	
+
 '''	
+First Line: no of features(Fn) followed by no of sample data
+2nd line onwards to N+1 line we have
+feature1 feature2 featur3 .... featureFn ValueFound
+feature1 feature2 featur3 .... featureFn ValueFound
+.
+.
+feature1 feature2 featur3 .... featureFn ValueFound
+and then: Give data whose value needs to be found out
+Leave the answer column blank
+feature1 feature2 featur3 .... featureFn
+feature1 feature2 featur3 .... featureFn
+.
+
+.
+feature1 feature2 featur3 .... featureFn
+
+The program will find out the result for all the inputs
 Sample Input:
 2 100
 0.44 0.68 511.14
